@@ -1,0 +1,23 @@
+:root{--bg:#F3F0EA;--ink:#1C1C1C;--sub:#5E5A55;--accent:#F2662D;--line:#DAD5CC}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Hiragino Sans","Noto Sans JP",Arial,sans-serif;line-height:1.75;-webkit-font-smoothing:antialiased}
+main{max-width:640px;margin:0 auto;padding:64px 20px 96px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:56px}
+.wordmark{font-weight:600;letter-spacing:.14em;font-size:.95rem;text-decoration:none;color:var(--ink)}
+nav a{color:var(--sub);text-decoration:none;margin-left:18px;font-size:.9rem}
+nav a:hover,a:hover{color:var(--accent)}
+h1{font-size:1.6rem;font-weight:600;letter-spacing:-.01em;margin:0 0 8px}
+h2{font-size:1.05rem;font-weight:600;margin:48px 0 10px}
+p{margin:0 0 14px}
+.lead{color:var(--sub);font-size:1.05rem;margin-bottom:40px}
+a{color:var(--ink)}
+ul{padding-left:1.2em}
+li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+td,th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;white-space:nowrap}
+.mark{display:inline-block;width:28px;height:28px;vertical-align:-8px;margin-right:8px}
+footer{margin-top:72px;padding-top:20px;border-top:1px solid var(--line);color:var(--sub);font-size:.85rem}
+.small{font-size:.88rem;color:var(--sub)}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--ink:#F3F0EA;--sub:#A8A39B;--line:#2A2A2A}}

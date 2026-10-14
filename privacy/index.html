@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy — Roughly</title>
+<meta name="description" content="Roughly（Android アプリ）のプライバシーポリシー">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<main>
+<header>
+  <a class="wordmark" href="/">SLIGHTLY OFF</a>
+  <nav><a href="/">Home</a><a href="/roughly/">Roughly</a><a href="mailto:hello@slightlyoff.dev">Contact</a></nav>
+</header>
+
+<h1>プライバシーポリシー</h1>
+<p class="lead">Roughly（Android アプリ）／ SLIGHTLY OFF</p>
+
+<p>Roughly はアカウントを作らず、広告も解析ツールも使いません。アプリが扱う情報と、その行き先を以下に書きます。</p>
+
+<h2>1. 端末の中だけで扱う情報</h2>
+<table>
+<tr><th>位置情報</th><td>現在地を地図に表示し、現在地へ移動するために使います。端末の外へは送信しません。許可は現在地ボタンを押したときにだけ求め、いつでも OS の設定から取り消せます。</td></tr>
+<tr><th>作成・保存したルート</th><td>端末内のデータベースに保存します。アプリを削除すると消えます。GPX として書き出した場合、その先の扱いは書き出し先（ウォッチのアプリ等）に従います。</td></tr>
+<tr><th>設定・検索履歴</th><td>ペース、地図の種類、表示の切り替え、最近検索した場所、前回の地図位置を端末内に保存します。</td></tr>
+</table>
+
+<h2>2. 機能のために外部サービスへ送る情報</h2>
+<p>以下は、アプリの機能を提供するために各サービスへ通信します。いずれも個人を特定する情報（氏名・メール・端末 ID）は送りません。通信にともない IP アドレスは各サービスに届きます。</p>
+<table>
+<tr><th>Stadia Maps</th><td>ルートの経路計算・標高・場所検索。送るのは、地図上でタップした地点や検索した文字列の座標です。<a href="https://stadiamaps.com/privacy/" rel="noopener">Stadia Maps のプライバシーポリシー</a></td></tr>
+<tr><th>CARTO</th><td>背景地図のタイル取得。送るのは表示している地図範囲です。<a href="https://carto.com/privacy" rel="noopener">CARTO のプライバシーポリシー</a></td></tr>
+<tr><th>OpenFreeMap</th><td>駅名・地名・道路データのタイル取得（表示範囲のみ）。</td></tr>
+<tr><th>国土地理院</th><td>航空写真・傾斜量図のタイル取得（表示範囲のみ）。</td></tr>
+<tr><th>Google（Street View）</th><td>長押しメニューから開いたときだけ、その地点の座標を Google マップ／ブラウザに渡します。</td></tr>
+</table>
+<p class="small">信号の位置データはアプリに同梱しており、通信しません。</p>
+
+<h2>3. 収集しないもの</h2>
+<ul>
+  <li>アカウント、氏名、メールアドレス、連絡先</li>
+  <li>行動ログ、クラッシュレポート、広告 ID</li>
+  <li>位置情報の履歴（端末の外に出ません）</li>
+</ul>
+
+<h2>4. テスト配信について</h2>
+<p>Google Play 公開前のテスト版は Firebase App Distribution で配信しています。テスターとして登録されたメールアドレスは配信の管理にのみ使い、アプリ本体から Firebase への通信はありません。</p>
+
+<h2>5. 子ども</h2>
+<p>Roughly は 13 歳未満を対象としておらず、年齢に関する情報も収集しません。</p>
+
+<h2>6. 変更</h2>
+<p>内容を変えるときはこのページを更新し、重要な変更はアプリ内でお知らせします。</p>
+
+<h2>7. 連絡先</h2>
+<p>SLIGHTLY OFF — <a href="mailto:hello@slightlyoff.dev">hello@slightlyoff.dev</a></p>
+
+<p class="small">制定: 2026-10-14</p>
+
+<hr style="border:0;border-top:1px solid var(--line);margin:48px 0">
+
+<h2 id="en">Privacy Policy (English summary)</h2>
+<p>Roughly is an Android app by SLIGHTLY OFF. It has no accounts, no ads and no analytics.</p>
+<ul>
+  <li><strong>Location</strong> is used only on the device to show where you are. It is never sent off the device. Permission is requested only when you tap the “current location” button.</li>
+  <li><strong>Routes and settings</strong> are stored on the device. Deleting the app deletes them.</li>
+  <li><strong>Network requests</strong> are made to Stadia Maps (routing, elevation, place search — the coordinates you tap or type), CARTO, OpenFreeMap and the Geospatial Information Authority of Japan (map tiles for the area shown). No personal identifiers are sent; IP addresses reach these services as part of any request.</li>
+  <li>Pre-release builds are distributed through Firebase App Distribution; tester e-mail addresses are used only for that distribution.</li>
+</ul>
+<p>Contact: <a href="mailto:hello@slightlyoff.dev">hello@slightlyoff.dev</a> · Effective 2026-10-14</p>
+
+<footer>© SLIGHTLY OFF</footer>
+</main>
+</body>
+</html>
